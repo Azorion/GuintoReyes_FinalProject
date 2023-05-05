@@ -21,6 +21,15 @@ section {
 }
 
 
+.content {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;    
+ }
+ 
+ 
  .content .Textbox {
     position: relative;
     max-width: 600px;
