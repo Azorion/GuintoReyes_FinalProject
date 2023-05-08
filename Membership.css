@@ -77,26 +77,69 @@ a {
 }
 
 
-button {
-   border-radius: 30px;
-   border: 1px solid #ff4b2b;
-   background-color: #ff4b2b;
-   color: azure;
-   font-size: 12px;
-   font-weight: bold;
-   padding: 12px 45px;
-   letter-spacing: 1px;
-   text-transform: uppercase;
-}
-
 .main {
-   background-color: bisque;
+   background-color: rgb(65, 63, 63);
    background-size: 100%;
    padding: 75px 0px;
 }
 
+
 .form-box {
-   background-color: azure;
+   background-color: rgb(255, 255, 255);
    border-radius: 20px;
-   border: 1px solid white;
+   border: 1px solid rgb(0, 0, 0);
+   backdrop-filter: blur(5px);
+}
+
+
+.form-box input {
+   border-radius: 10px;
+}
+
+
+.form-box input:focus {
+   box-shadow: 0 0 0 ;
+   border: 2px solid;
+}
+
+
+.form-box select {
+   border-radius: 10px;
+}
+
+
+.form-box select:focus {
+   border-radius: 10px;
+   border: 2px solid;
+   box-shadow: 0 0 0 ;
+}
+
+
+.input-group-text {
+   border-radius: 0px 10px 10px 0px;
+}
+
+
+.TandC {
+   color: rgb(0, 0, 0);
+   margin-left: 0;
+}
+
+
+.register-btn {
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(0, 0, 0);
+}
+
+
+.LogIn {
+   color: rgb(0, 0, 0);
+   margin-left: 0;
+   text-decoration: none;
+}
+
+
+.LogIn:hover {
+   color: rgb(110, 132, 231);
 }
