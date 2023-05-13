@@ -63,10 +63,9 @@
                     <div class="text-center">
                       <img src="LOGOO.png"
                         style="width: 200px;" alt="logo">
-                        <h4 class="mt-1 mb-5 pb-1">Become a Whip 0 Wrench member today and enjoy exclusive gifts and perks</h4>
+                        <h4 class="mt-1 mb-5 pb-1">Become a Whip O Wrench member today and enjoy exclusive gifts and perks</h4>
                 
                     </div>
-      
                    
                     <form>
                 
@@ -90,12 +89,32 @@
                        <input type="checkbox" name="">
                        <label><small>By signging up, I agree to <a class="TandC" href=""><b>Terms and Conditions</b></a></small></label>
                        </div>
-                          <button class="register-btn form-control mb-3" style="background-color: black;color: white;">Register</button>
-                          <p class="text-center">Already have an account? <a class="LogIn" href=""><b>Log In</b></a></p>
-                
+
+                      <div>
+                       <button class="register-btn form-control mb-3" type="button" onclick="openPopup()" style="background-color: black;color: white;">Register</button>
+                       <p class="text-center">Already have an account? <a class="LogIn" href=""><b>Log In</b></a></p>
+                        
+                       <div class="popup" id="popup">
+                              <img src="green.png">
+                              <h2>Thank You!</h2>
+                              <p>Your details have been successfully submitted. Thank you!</p>
+                              <button type="button" onclick="closePopup()">OK</button>
+                      </div>
+                      </div>
+
+                        <script>
+                           let popup = document.getElementById("popup");
+                           function openPopup() {
+                                popup.classList.add("open-popup");
+                           }
+                           function closePopup() {
+                                popup.classList.remove("open-popup");
+                           }
+                        </script>
                       
+                        
                     </form>
-                
+
                   </div>
                 </div>
               </div>

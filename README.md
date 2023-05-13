@@ -9,4 +9,8 @@ Greetings, this is James Guinto and Ivan Reyes of STEM 1 - Innovation and we are
   May 5 - The creation of the navigation bar (only the structure)
   May 6 - Using CSS to decorate the Navbar and trying out different CSS codes
   May 7 - Finishing the design of the Home Page and connecting it with other pages. The creation of the Membership Page/Forms was started
-  May 8 - Designing the Forms...tbc
+  May 8 - Designing the Forms and finishing it
+  May 9 - FINALS
+  May 10 - FINALS
+  May 11 - FINALS
+  May 12 - FINALS
