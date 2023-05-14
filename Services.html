@@ -38,7 +38,7 @@
                 <a class="nav-link" href="AboutUs.html">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="Services.html">SERVICES</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
@@ -71,7 +71,71 @@
         </div>
       </div>
     </section>
+
+    <div class="carousel-container">
+      <img class="AutomaticCarousel active" src="Tuning.png" alt="1stPic">
+      <img class="AutomaticCarousel" src="Repairing.png" alt="2ndstPic">
+      <img class="AutomaticCarousel" src="Servicing.png" alt="3rdPic">
+      <img class="AutomaticCarousel" src="bentley.jpeg" alt="4thPic">
+      <img class="AutomaticCarousel" src="lbwk.jpg" alt="5thPic">
+      <div class="carousel-navigation">
+        <button class="active"></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+      </div>
+    </div>
   
+    <script>
+      const images = document.querySelectorAll('.AutomaticCarousel');
+      const navigationButtons = document.querySelectorAll('.carousel-navigation button');
+  
+      let currentIndex = 0;
+  
+      function showImage(index) {
+        if (index < 0 || index >= images.length) {
+          return;
+        }
+  
+        images.forEach((image, i) => {
+          if (i === index) {
+            image.classList.add('active');
+          } else {
+            image.classList.remove('active');
+          }
+        });
+  
+        navigationButtons.forEach((button, i) => {
+          if (i === index) {
+            button.classList.add('active');
+          } else {
+            button.classList.remove('active');
+          }
+        });
+  
+        currentIndex = index;
+      }
+  
+      function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+      }
+  
+      function previousImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(currentIndex);
+      }
+  
+      navigationButtons.forEach((button, i) => {
+        button.addEventListener('click', () => {
+          showImage(i);
+        });
+      });
+  
+      setInterval(nextImage, 5000); // Change image every 5 seconds
+    </script>
+
     <section class="services">
       <div class="MainService">
         <img src="bentley.jpeg">
@@ -81,6 +145,6 @@
         </div>
       </div>
     </section>
-    
+
 </body>
 </html>

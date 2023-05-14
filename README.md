@@ -2,15 +2,18 @@
 Hello 
 Greetings, this is James Guinto and Ivan Reyes of STEM 1 - Innovation and we are very happy to share our web page.
 
-  Our webpage is all about our small business. The name of our business is Whip-O-Wrench which is a automobile tuning and repair shop. We offer a lot of services such as car repairs, bodykit installations, car wraps, engine swaps, exhaust upgrades, rim change, and many more. We also work with famous automotive brands like Liberty Walk, VeilSide, Top Secret, BBS LM, Work, Nismo, and many more. Our main goal with our business is to make people happy by helping them with their car performance or repair needs. Most important of all, we want to deliver high quality services and products to our customers at a lower price compared to other tuning and repair shops. We also want to ensure the safety and the reliability of our customer's vehicles by providing auto-servicing needs and not only that, we also want to help our customer's maintain their vehicle's value as much as possible by having a proper and scheduled vehicle maintenance.
+  Our webpage is all about our small business. The name of our business is Whip O Wrench which is a automobile tuning and repair shop. We offer a lot of services such as car repairs, bodykit installations, car wraps, engine swaps, exhaust upgrades, rim change, and many more. We also work with famous automotive brands like Liberty Walk, VeilSide, Top Secret, BBS LM, Work, Nismo, and many more. Our main goal with our business is to make people happy by helping them with their car performance or repair needs. Most important of all, we want to deliver high quality services and products to our customers at a lower price compared to other tuning and repair shops. We also want to ensure the safety and the reliability of our customer's vehicles by providing auto-servicing needs and not only that, we also want to help our customer's maintain their vehicle's value as much as possible by having a proper and scheduled vehicle maintenance.
 
-  Progress:
-  May 4 - Still exploring bootsrap
-  May 5 - The creation of the navigation bar (only the structure)
-  May 6 - Using CSS to decorate the Navbar and trying out different CSS codes
-  May 7 - Finishing the design of the Home Page and connecting it with other pages. The creation of the Membership Page/Forms was started
-  May 8 - Designing the Forms and finishing it
-  May 9 - FINALS
-  May 10 - FINALS
-  May 11 - FINALS
-  May 12 - FINALS
+ 
+ User Documentation:
+  This website of Whip O Wrench consists of five pages starting with the Home Page, About Page, Services Page, Membership Page, and the Contacts Page. Each page has different purpose and functionalities depending on their intended purpose. Regarding on how to use the website, it is very easy to navigate and get used to it. We have a navigation bar on every page which can help users to navigate and transfer to different pages quickly and easily. At the Home page, there is also a button under the short description of our Website which will lead to the About page when clicked. In the About Page, this is where all the informations about the owners and the business itself is placed. Next is the Services Page which is similar to thea bout page but it differs in their purpose. In the services page, this shows what our business offers such as car repairing, servicing, and tuning. This page is mostly used to attract customers to come to our shop and have us service them according to their automobile needs. Next, we have the Membership Page where the forms/login form is placed. The main purpose of this page is to let customers make an account to have a membership of Whip O Wrench. The main idea here is similar to battlepasses/gamepasses in games and that is for customers to receive exlusive gifts, perks, or maybe free services from Whip O Wrench especially when they become an active member. Lastly, we have the Contacts Page, and the purpose of this page is to share the customers informations about our auto shop and also our social media links so they could follow it and receive updates from us. This is also a way to promote our business and expand it through the use of social media.
+
+Developer Documentation:
+  As for the architecture and design of the website, while having a simple design, we also made sure that it looks modern and also organized so it will be easy to use and navigate. It is also inspired from websites of other car manufacturers such as Ferrari and Porsche. We wanted our website to have sa smooth and organized flow for it to look good while having a design that is eye-appealing. For the navbar, we added animations when you hover on the text and same goes for the button in the Home Page. What we are most proud of is the carousel image in our Services Page. This concept was actually inspired from our PT in Media that was made in Google Sites. We also used the image carousel feature there and ended up liking the idea, and that is why we also applied in in this project. The page that we spent the most designing is probably the Membership Page because we encountered a lot of problems positioning the forms itself and we did a lot of trial and error. For the color combination choice, we decided to go for a dark themed website. Aside from being our favorite color, we also think that this color combination looks very modern and it fits with the theme and business which is about Automobiles and machinery. For the logo of our website, we used Canva to make it and we actually had multiple drafts before we decided with this one. Our favorite feature of the logo is the word "WOW" since this makes the business much more easier to remember and we think that if this is a real business, this logo will help in attracting customers and it will be memorable like the logos of other famous brands.
+
+
+
+
+
+
+
