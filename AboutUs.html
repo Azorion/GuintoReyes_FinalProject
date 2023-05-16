@@ -1,60 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="AboutUs.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,900;1,900&family=Lexend&family=Poppins&display=swap" rel="stylesheet">  
-    <link rel="shortcut icon" href="Whip-0-Wrench.png" type="image/x-icon"> 
-    <title>Whip-O-Wrench</title>
+<head> 
+    <meta charset="UTF-8">  <!--ensures proper character encoding-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Makes the html compatible for Internet Explorer browsers-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Controls viewport on mobile devices-->
+    <link rel="stylesheet" href="AboutUs.css"> <!--Links this html file to a css file where it will get designed/styled-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> <!--These codes includes bootstrap CSS and JavaScript into this HTML document from a CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> <!--These codes includes bootstrap CSS and JavaScript into this HTML document from a CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/> <!--These codes includes bootstrap CSS and JavaScript into this HTML document from a CDN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Sets up the fonts and fetches them from a domain that contains the fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Sets how the browser should handle cross-origin requests-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,900;1,900&family=Lexend&family=Poppins&display=swap" rel="stylesheet">  <!--Here is the link of the fonts that we used for the About Us Page-->
+    <link rel="shortcut icon" href="Whip-0-Wrench.png" type="image/x-icon"> <!--This is a short cut icon or logo that you can see in the tab of your browser when you open this website-->
+    <title>Whip-O-Wrench</title> <!--Title of the website--> 
 
 </head>
 <body>
-<div class="MainNav">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-  
-      <a class="navbar-brand" href="#"><img class="LogoNav" src="Whip-0-Wrench.png" alt="Bootstrap" width="30" height="24"></a>
-          
-          <div class="navbar navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="Home.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="AboutUs.html">ABOUT US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Services.html">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
-              <li class="nav-item">
-                <a class="nav-link" href="Contacts.html">CONTACT</a>
-              </li>
-            </ul>
+  <div class="MainNav"> <!--This is the start of the code for our navigation bar which probably took us the longest time to make since we are still exploring bootstrap during the time that we're making this-->
+    <nav class="navbar navbar-expand-lg"> <!--Purpose of this is to stack the NavBar on different screens-->
+      <div class="container-fluid"> <!--This provides a full width container, spanning the width of the viewport-->
+    
+        <a class="navbar-brand" href="#"><img class="LogoNav" src="Whip-0-Wrench.png" alt="Bootstrap" width="30" height="24"></a> <!--To add a design to our NavBar, we made a logo using Canva and placed it in our NavBar. This is also to let the viewers/customers know the name of our business or website.-->
+      
+              <div class="navbar navbar-collapse justify-content-end" id="navbarNav"> <!--We used justify-content-end to place our NavBar links on the right side-->
+              <ul class="navbar-nav"> <!--Unordered list of items that are not numbered or in sequence-->
+                <li class="nav-item"> <!--represents an item within the unordered list-->
+                  <a class="nav-link" href="Home.html">HOME</a> <!--You click this to go to the Home Page-->
+                </li>
+                <li class="nav-item"> <!--represents an item within the unordered list-->
+                  <a class="nav-link" href="AboutUs.html">ABOUT US</a> <!--You click this to go to the About Us Page-->
+                </li>
+                <li class="nav-item"> <!--represents an item within the unordered list-->
+                  <a class="nav-link" href="Services.html">SERVICES</a> <!--You click this to go to the Services Page-->
+                </li>
+                <li class="nav-item"> <!--represents an item within the unordered list-->
+                  <a class="nav-link" href="Membership.html">MEMBERSHIP</a> <!--You click this to go to the Membership Page-->
+                </li>
+                <li class="nav-item"> <!--represents an item within the unordered list-->
+                  <a class="nav-link" href="Contacts.html">CONTACT</a> <!--You click this to go to the Contacts Page-->
+                </li>
+              </ul>
+              </div>
+            </div>
             </div>
           </div>
-          </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
 
     <div class="AboutUsBanner">
-      <video autoplay loop muted plays-inline>
-        <source src="about_us_video.mp4" type="video/mp4">
+      <video autoplay loop muted plays-inline> <!--Describes how the video format must be such as it must autoplay, it is looped, muted, etc.-->
+        <source src="about_us_video.mp4" type="video/mp4"> <!--This is the background video that we used for the Home Page, we also made sure that it is on loop, it autoplays, and muted.-->
       </video>
-      <img src="about_us_img.png">
+      <img src="918.png">  <!--Picture of the car on the Home Page. We decided to pick a gray car to fit the theme of the website or business-->
       <div class="text">
-        <h2>About Us</h2>
-        <p>At Whip-O-Wrench, we are a leading mechanical workshop dedicated to providing exceptional automotive repair and maintenance services. With a <br>
+        <h2>About Us</h2> <!--This is a header to show what the paragraph is all about-->
+        <p>At Whip-O-Wrench, we are a leading mechanical workshop dedicated to providing exceptional automotive repair and maintenance services. With a <br> <!--This is the paragraph where the main conten is included-->
            team of highly skilled technicians and state-of-the-art equipment, we strive to deliver superior quality workmanship and outstanding customer service.</p>
       </div>
+    </div>
+
+      <section class="about">
+        <div class="MainAboutUs">
+          <img src="IvanJames.png"> <!--Image that we used for this section-->
+          <div class="about-text">
+            <h5>Technicians<span> & Mechanics</span></h5> <!--This is a header to show what the paragraph is all about and this explains about the technicians and mechanics-->
+            <p> Technican James Guinto and Mechanic Ivan Reyes offers comprehensive services to keep your vehicle running smoothly.  
+            From oil changes and tune-ups to brake repairs and suspension work, our experienced technicians handle it all.
+            Our workshop is equipped with advanced diagnostic tools to accurately identify and resolve engine issues. 
+            Whether it's a strange noise, poor performance, or a check engine light, we'll diagnose and fix the problem efficiently.
+            We specialize in diagnosing and repairing electrical system faults. Our experts are skilled in resolving issues with wiring, 
+            batteries, alternators, starters, and other electrical components.
+            </p> <!--This is the paragraph where the main conten is included-->
+            <a href="https://www.google.com"><br> <!--When the button is clicked, this is where it heads to-->
+            <button type="button">LEARN MORE</button> <!--Button to learn more about the technicians and mechanics-->
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="history">
+        <div class="history-title">
+          <h1>History</h1> <!--This is a header to show what the paragraph is all about. In this, the history of the business is being talked about-->
+        </div>
+        <div class="MainHistory">
+          <div class="history-col">
+            <img src="history1.jpg"> <!--Picture showing the history-->
+            <h3>1979-1989</h3> 
+            <p>James Guinto was born on April 26, 1969, in Philippines. He began his racing career in karting and quickly rose through the ranks of junior formulae. 
+              In 1981, he and Ivan Reyes made their Formula 1 debut with the Jordan-Ford team, impressing with their speed and talent.</p>
+          </div>
+  
+          <div class="history-col">
+            <img src="history2.jpg">  <!--Picture showing the history-->
+            <h3>1990-2005</h3>
+            <p>Both F1 drivers James Guinto and Ivan Reyes retired and opened up a mechanical workshop. With a rapid evolution in automotive technology. 
+              Opening a mechanic shop meant embracing these advancements, investing in the necessary tools and equipment to effectively service modern vehicles.</p>
+          </div>
+  
+          <div class="history-col">
+            <img src="workshop.jpg"> <!--Picture showing the history-->
+            <h3>2005-Present</h3>
+            <p>As decades pass, In an ever-evolving automotive industry, upgrading a mechanical shop is crucial to stay competitive, improve efficiency, and meet the changing needs of customers.
+               So James Guinto and Ivan Reyes invested millions of dollars upgrading their shop exploring the benefits and considerations involved in upgrading a mechanical shop.</p>
+          </div>
+        </div>       
+      </section>
+
+      <section class="about1">
+        <div class="MainAboutUs1">
+          <img src="aboutus1.jpg"> <!--Picture showing the Branches of the business-->
+          <div class="about-text1">
+            <h5>Branches</h5>
+            <p> The automotive industry in the Philippines has witnessed significant growth in recent years, driven by increasing vehicle ownership and a rising demand for 
+              quality repair and maintenance services. With this surge in automotive-related activities, establishing different branches of mechanical workshops across the 
+              country brings numerous advantages for both the service providers and vehicle owners. James and Ivan explores the benefits of having multiple branches of mechanical 
+              workshops in the Philippines. By establishing multiple branches, their mechanical workshops offers their services in various locations.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="wrapper"> <!--Its like a box and when you hover on it, the picture will show which is coded in the CSS-->
+        <h1>Branches in the Philippines</h1>
+        <p>Here are three branches readily available in the Philippines. </p>
+        <div class="content-box">
+  
+          <div class="card">
+            <h2>Las Pinas City</h2>
+            <p>24 Havana St 1800 Las Pinas City +63 63-2-6552286 Philippines</p>
+          </div>
+  
+          <div class="card">
+            <h2>Quezon City</h2>
+            <p>Edsa Cubao Quezon City +63 09129761 Philippines</p>
+          </div>
+  
+          <div class="card">
+            <h2>Rizal City</h2>
+            <p>183 Gen Mascardo 1400 Rizal City +63 03619081 Philippines</p>
+          </div>
+        </div>
+      </div>    
+
 </body>
 </html>
