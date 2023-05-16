@@ -5,43 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Membership.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Lexend&family=Poppins&display=swap" rel="stylesheet"> <!--Here is the link of the fonts that we used for the Home Page-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> <!--These codes includes bootstrap CSS and JavaScript into this HTML document from a CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> <!--These codes includes bootstrap CSS and JavaScript into this HTML document from a CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--These codes includes bootstrap CSS and JavaScript into this HTML document from a CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/> <!-- Predefined styles and components provided by Bootstrap can be applied to the HTML -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Sets up the fonts and fetches them from a domain that contains the fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <!--Sets how the browser should handle cross-origin requests-->
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Lexend&family=Poppins&display=swap" rel="stylesheet"> <!--Here is the link of the fonts that we used for the Membership Page-->
     <link rel="shortcut icon" href="Whip-0-Wrench.png" type="image/x-icon"> <!--This is a short cut icon or logo that you can see in the tab of your browser when you open this website-->
-    <title>Whip-O-Wrench</title>
+    <title>Whip-O-Wrench</title> <!--Title of the website-->
 
 </head>
 <body>
 <div class="MainNav"> <!--This is the start of the code for our navigation bar which probably took us the longest time to make since we are still exploring bootstrap during the time that we're making this-->
   <nav class="navbar navbar-expand-lg"> <!--Purpose of this is to stack the NavBar on different screens-->
-    <div class="container-fluid">
+    <div class="container-fluid"> <!--This provides a full width container, spanning the width of the viewport-->
   
       <a class="navbar-brand" href="#"><img class="LogoNav" src="Whip-0-Wrench.png" alt="Bootstrap" width="30" height="24"></a> <!--To add a design to our NavBar, we made a logo using Canva and placed it in our NavBar. This is also to let the viewers/customers know the name of our business or website.-->
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
           
           <div class="navbar navbar-collapse justify-content-end" id="navbarNav"> <!--We used justify-content-end to place our NavBar links on the right side-->
-            <ul class="navbar-nav">
-              <li class="nav-item">
+            <ul class="navbar-nav"> <!--Unordered list of items that are not numbered or in sequence-->
+              <li class="nav-item"> <!--represents an item within the unordered list-->
                 <a class="nav-link" href="Home.html">HOME</a> <!--You click this to go to the Home Page-->
               </li>
-              <li class="nav-item">
+              <li class="nav-item"> <!--represents an item within the unordered list-->
                 <a class="nav-link" href="AboutUs.html">ABOUT US</a> <!--You click this to go to the About Us Page-->
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a> <!--You click this to go to the Services Page-->
+              <li class="nav-item"> <!--represents an item within the unordered list-->
+                <a class="nav-link" href="Services.html">SERVICES</a> <!--You click this to go to the Services Page-->
               </li>
-              <li class="nav-item">
+              <li class="nav-item"> <!--represents an item within the unordered list-->
                 <a class="nav-link" href="Membership.html">MEMBERSHIP</a> <!--You click this to go to the Membership Page-->
-              <li class="nav-item">
+              </li>
+              <li class="nav-item"> <!--represents an item within the unordered list-->
                 <a class="nav-link" href="Contacts.html">CONTACT</a>  <!--You click this to go to the Contacts Page-->
               </li>
             </ul>
@@ -51,59 +47,71 @@
         </div>
       </nav>
    
-      <div class="container-fluid ps-md-0">
-        <div class="row g-0">
-          <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
-          <div class="col-md-8 col-lg-6">
-            <div class="login d-flex align-items-center py-5">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-9 col-lg-8 mx-auto">
+      <div class="container-fluid ps-md-0"> <!--This provides a full width container, spanning the width of the viewport-->
+        <div class="row g-0"> <!--Rows is used to make rows of columns and the g-0 is used to remove spaces between the columns-->
+          <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div> <!--d-none hides the elements, d-md-flex makes the elements visible and applies a flexbox layout, col-md-4 col-lg-6 is used to define the width of the columns, md stands for medium and lg stands for large, bg-image is used to display a background image-->
+          <div class="col-md-8 col-lg-6"> <!--For medium devices, 8 columns are occupied while for large devices, 6 columns are occupied-->
+            <div class="login d-flex align-items-center py-5"> <!--d-flex, applies a flexbox layout, align-items-center, aligns the items vertically a the center, py-5, adds a padding on the top and bottom of the element-->
+              <div class="container"> <!--div that contains the container which holds the content-->
+                <div class="row"> <!--Div that contains the row within a container-->
+                  <div class="col-md-9 col-lg-8 mx-auto"> <!--For medium devices, 9 columns are occupied, while for large devices, 8 columns are occupied, then mx-auto is used to horizontally center an element-->
                 
-                    <div class="text-center">
-                      <img src="LOGOO.png"
-                        style="width: 200px;" alt="logo">
-                        <h4 class="mt-1 mb-5 pb-1">Become a Whip O Wrench member today and enjoy exclusive gifts and perks</h4>
+                    <div class="text-center"> <!--Div that contains the text and the logo of the business-->
+                      <img src="LOGOO.png"  
+                        style="width: 200px;" alt="logo"> <!--The logo of the business and also its styles such as the width of the image-->
+                        <h4 class="mt-1 mb-5 pb-1">Become a Whip O Wrench member today and enjoy exclusive gifts and perks</h4> <!--mt-1 adds a margin on top of the element or text, mb-5 adds a margin at the bottom of the element or text, and pb-1 adds a padding at the bottom of the element-->
                 
                     </div>
                    
                     <form>
                 
-                        <h2 class="text-center mb-4">Register Now</h2>
-                        <input type="text" name="" placeholder="Name" class="form-control mb-3">
-                        <input type="email" name="" placeholder="Email" class="form-control mb-3">
+                        <h2 class="text-center mb-4">Register Now</h2> <!--text-center aligns the header horizontally to the center and mb-4 adds a margin at the bottom of the header-->
+                        <input type="text" name="" placeholder="Name" class="form-control mb-3"> <!--The input type="text"indicates that the input box must only accept texts, placeholder="Name" sets a text in the input box when it is empty, form-control is used to make the input field consistent with other forms, and lastly mb-3, is used to add a margin at the bottom -->
+                        <input type="email" name="" placeholder="Email" class="form-control mb-3"> <!--The input type="email"indicates that the input box must only accept emails, placeholder="Email" sets a text in the input box when it is empty, form-control is used to make the input field consistent with other forms, and lastly mb-3, is used to add a margin at the bottom -->
             
-                      <select class="form-select mb-3" >
-                          <option> City </option>
-                          <option> Bacoor, Philippines </option> 
-                          <option> Las Piñas, Philippines </option>
+                      <select class="form-select mb-3" > <!--Form-select is used to make the format consistent with other form controls and mb-3 is used to remove a margin at the bottom-->
+                        <option> City </option> <!--These are choices or options that makes a drop down feature where a user can select a value of their choice-->
+                        <option> Bacoor, Philippines </option> 
+                        <option> Las Piñas, Philippines </option>
+                        <option> Paranaque, Philippines </option>
+                        <option> Imus, Philippines </option>
+                        <option> Pasay, Philippines </option>
+                        <option> Manila, Philippines </option>
+                        <option> Makati, Philippines </option>
+                        <option> Quezon, Philippines </option>
+                        <option> Tagaytay, Philippines </option>
+                        <option> Batangas, Philippines </option>
+                        <option> Baguio, Philippines </option>
                      </select>
             
-                        <input type="number" name="" placeholder="Contact no." class="form-control mb-3">
-                        <div class="input-group mb-3">
-                        <input type="password" name="" placeholder="Password" class="form-control border-end-0">
-                        <span class="input-group-text bg-white border-start-0"><i class="fa-solid fa-eye"></i></span>
+                        <input type="number" name="" placeholder="Contact no." class="form-control mb-3"> <!--The input type="number"indicates that the input box must only accept numbers, placeholder="Contact no." sets a text in the input box when it is empty, form-control is used to make the input field consistent with other forms, and lastly mb-3, is used to add a margin at the bottom -->
+                        <div class="input-group mb-3"> <!--Input-group creates a container for styling and designing to make the input boxes or fields consistent with one another-->
+                        <input type="password" name="" placeholder="Password" class="form-control border-end-0"> <!--The input type="password"indicates that the input box must only accept passwords, placeholder="Password" sets a text in the input box when it is empty, form-control is used to make the input field consistent with other forms, and lastly border-end-0, removes the border at the right or end ot the input box -->
+                        <span class="input-group-text bg-white border-start-0"><i class="fa-solid fa-eye"></i></span> <!--input-group-text is used to provide consistent stuling for elements within a container, bg-white sets the background color of the span element to white, border-start-0 removes the left side of the border of the span element, fa-solid and fa-eye represents an icon in the span element-->
                         </div>
             
-                       <div class="mb-3">
-                       <input type="checkbox" name="">
-                       <label><small>By signing up, I agree to <a class="TandC" href=""><b>Terms and Conditions</b></a></small></label>
+                       <div class="mb-3"> <!--adds a margin at the bottom of the div-->
+                       <input type="checkbox"> <!--This creates a checkbox that can be checked-->
+                       <label><small>By signing up, I agree to <a class="TandC" href=""><b>Terms and Conditions</b></a></small></label> <!--This is where the terms and conditions is located which is represented as a hyperlink-->
                        </div>
 
                       <div>
-                       <button class="register-btn form-control mb-3" type="button" onclick="openPopup()" style="background-color: black;color: white;">Register</button>
-                       <p class="text-center">Already have an account? <a class="LogIn" href=""><b>Log In</b></a></p>
+                       <button class="register-btn form-control mb-3" type="button" onclick="openPopup()" style="background-color: black;color: white;">Register</button> <!--This is the register button. form-control is used to make the element consistent with other form controls, type="button" is used to make a generic button, onclick="openPopup()" will open up something when the button is clicked, style="background-color:black;color:white" sets the background color to black and the text of the button to white-->
+                       <p class="text-center">Already have an account? <a class="LogIn" href=""><b>Log In</b></a></p> <!--Contains the hyperlink that enables the user to login if they have an account already-->
                         
-                       <div class="popup" id="popup">
-                              <img src="green.png">
+                       <div class="popup" id="popup"> <!-- Div that contains the popup or modal-->
+                              <img src="green.png"> <!--Image inside the popup-->
                               <h2>Thank You!</h2>
                               <p>Your details have been successfully submitted. Thank you!</p>
-                              <button type="button" onclick="closePopup()">OK</button>
+                              <button type="button" onclick="closePopup()">OK</button> <!--When the OK button is clicked, the popup will close-->
                       </div>
                       </div>
 
+                      <!--I will put the javascript comments here-->
+                      <!---the id named "popup" is assigned to the variable popup and when manipulated, it will show the Pop up or modal,-->
+                      <!--Then the id named "popup" can also be removed from the variable popup which will close or remove the open-popup which will result to the closing of the modal or Pop up-->
                         <script>
-                           let popup = document.getElementById("popup");
+                           let popup = document.getElementById("popup"); 
                            function openPopup() {
                                 popup.classList.add("open-popup");
                            }
