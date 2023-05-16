@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
 margin: 0;
 padding: 0;
@@ -6,15 +5,6 @@ box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 max-width: 100%;
 max-height: 100%;
-=======
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: 'Poppins', sans-serif;
-   max-width: 100%;
-   max-height: 100%;
->>>>>>> be051dfc92b8f2844dd2cb5541e0fc2450a67e1b
 }
 
 a {
@@ -69,26 +59,16 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-<<<<<<< HEAD
 background: url(carrera.jpg);
 background-size: cover;
 }
     
-=======
-background: url(contactbg.jpg);
-background-size: cover;
-}
->>>>>>> be051dfc92b8f2844dd2cb5541e0fc2450a67e1b
 
 .contact .content{
 max-width: 800px;
 text-align: center;   
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> be051dfc92b8f2844dd2cb5541e0fc2450a67e1b
 .contact .content h2{
 font-size: 100px;
 font-weight: 500;
@@ -118,15 +98,9 @@ flex-direction: column;
 }
 
 .container .contactInfo .box{
-<<<<<<< HEAD
 position: relative;
 padding: 20px 0;
 display: flex;
-=======
-  position: relative;
-  padding: 20px 0;
-  display: flex;
->>>>>>> be051dfc92b8f2844dd2cb5541e0fc2450a67e1b
 }
 
 .container .contactInfo .box .icon{
@@ -152,13 +126,9 @@ font-weight: 300;
 
 .container .contactInfo .box .text h3{
 font-weight: 500;
-<<<<<<< HEAD
 color: azure;
 font-family: 'Bebas Neue', cursive;
 font-size: 50px;
-=======
-color: #00bcd4;
->>>>>>> be051dfc92b8f2844dd2cb5541e0fc2450a67e1b
 }
 
 .contactForm{
@@ -168,16 +138,10 @@ background: #fff;
 }
 
 .contactForm h2{
-<<<<<<< HEAD
 font-size: 60px;
 color: #333;
 font-weight: 500;
 font-family: 'Bebas Neue', cursive;
-=======
-font-size: 30px;
-color: #333;
-font-weight: 500;
->>>>>>> be051dfc92b8f2844dd2cb5541e0fc2450a67e1b
 }
 
 .contactForm .inputBox{
@@ -220,17 +184,12 @@ transform: translateY(-20px);
 
 .contactForm .inputBox input[type="submit"]{
 width: 100px;
-<<<<<<< HEAD
 background: #000000;
-=======
-background: #00bcd4;
->>>>>>> be051dfc92b8f2844dd2cb5541e0fc2450a67e1b
 color:azure;
 border: none;
 cursor: pointer;
 padding: 10px;
 font-size: 18px;
-<<<<<<< HEAD
 border-radius: 10px;
 border:2px solid;
 }
@@ -245,8 +204,3 @@ border-color: #191919;
 }
     
 
-=======
-}
-
- 
->>>>>>> be051dfc92b8f2844dd2cb5541e0fc2450a67e1b
